@@ -17,6 +17,8 @@ public class Inventory {
 
     private Long stock;
 
+    private Integer qty;
+
     @PostPersist
     public void onPostPersist() {}
 
